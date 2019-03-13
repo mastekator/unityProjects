@@ -88,24 +88,7 @@ public class NewTestScript
         {
             yield return null;
         }
-        {
-            int array = 50;
-            float SumDist = 0;
-            var NewMember = datchik.dist;
-            var list = new List<float>(array);
-            for (int i = 0; i < array; i++)
-            {
-                NewMember = datchik.dist;
-                while (datchik.dist == NewMember)
-                {
-                    yield return null;
-                }
-                list.Add((float)NewMember);
-                SumDist = SumDist + list[i];
-            }
-            var approxDist = SumDist / array;
-            Debug.Log("Distanse: " + datchik.dist + " +-= " + approxDist + " | List Length: " + list.Count);
-        }
+        
     }
  
 }
